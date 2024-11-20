@@ -1,6 +1,6 @@
-1.Whenever the Account Phone Field's Updated then all related Contact's Phone fields 
+#    1.Whenever the Account Phone Field's Updated then all related Contact's Phone fields 
 should also get updated with Parents Field's
-
+'''apex
 Public Class AccountTriggerHandler
 {
     List<Account> triggernew;
